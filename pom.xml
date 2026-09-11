@@ -4,31 +4,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
                             http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <modelVersion>4.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
     <groupId>SEGroup..</groupId>
 
-    <artifactId>Book Metro Ticket</artifactId>
+    <artifactId>Book-Metro-Ticket</artifactId>
 
-    <version>0.0.1SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
-    <packaging>warfile</packaging>
+    <packaging>war</packaging>
 
     <dependencies>
 
         <!-- Servlet API -->
         <dependency>
-            <groupId>javax.servlet.api</groupId>
+            <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
-            <version>2.5x</version>
-            <scope>providd</scope>
+            <version>2.5</version>
+            <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.x</version>
-            <scope>testting</scope>
+            <version>4.13.2</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
